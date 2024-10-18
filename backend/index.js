@@ -17,7 +17,7 @@ const { MONGO_URI } = process.env;
 // Use cors middleware before defining any routes
 const allowedOrigins =
   process.env.NODE_ENV === "production"
-    ? ["https://scribbie-notes.vercel.app"]
+    ? ["https://notes-appfront.vercel.app/"]
     : ["http://localhost:5173"];
 
 app.use(
